@@ -1,0 +1,15 @@
+[project]
+name = "persona-lock"
+version = "0.1.0"
+description = "Block websites on macOS"
+requires-python = ">=3.9"
+
+[project.scripts]
+plock = "persona_lock:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["persona_lock"]
